@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+body {
+  font-family: "Red Hat Display";
+  letter-spacing: 0.05em;
+}
+.transition-colors {
+  transition-property: background-color;
+}
+
+.duration-500 {
+  transition-duration: 200ms;
+}
+.Main-text {
+  opacity: 0;
+  animation: slideTop 0.8s ease forwards;
+  animation-delay: 0.5s;
+}
+.Main-2 {
+  opacity: 0;
+  animation: slideLeft 0.8s ease forwards;
+  animation-delay: 0.5s;
+}
+.slick-list {
+  display: flex;
+  padding-left: 30px !important;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .slick-list {
+    padding-left: 80px !important;
+  }
+}
+.slick-dots li button:before {
+  color: white !important;
+}
+.slick-dots {
+  bottom: -70px !important;
+}
+#navbar_res {
+  position: fixed;
+  top: 90px;
+  width: 100% !important;
+  background-color: #252836;
+}
+/* Set the active dot's color to white */
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+.Main-btn {
+  opacity: 0;
+  animation: slideBottom 0.8s ease forwards;
+  animation-delay: 0.5s;
+}
+.test {
+  opacity: 0;
+  animation: slideLeft 0.8s ease forwards;
+  z-index: 999;
+}
+.navBar {
+  position: relative;
+  z-index: 1000;
+}
+@keyframes slideTop {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

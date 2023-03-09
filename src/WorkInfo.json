@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Frontend Developer",
+    "num": "+16 Projects",
+    "icon": "Front",
+    "active": false
+  },
+  {
+    "title": "UI / UX. Designer",
+    "num": "+4 Projects",
+    "icon": "UI",
+    "active": true
+  },
+  {
+    "title": "Development Experience ",
+    "num": "+1 Year",
+    "icon": "Exp",
+    "active": false
+  }
+]
