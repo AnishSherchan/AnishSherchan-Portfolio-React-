@@ -25,7 +25,9 @@ const ProfileCard = ({ name, img, email, repos, bio, gitHub }) => {
         <div className="flex justify-end">
           <img src={imgage} alt="github" className=" h-5 w-5" />
         </div>
-        <p className={`text-white text-2xl -mt-4 text-center `}>GitHub.</p>
+        <p className={`text-white text-2xl -mt-4 text-center `}>
+          {gitHub ? "GitHub." : "LinkedIn."}
+        </p>
         <div className="flex justify-center items-center py-[24px]">
           <img
             src={gitHub ? img : LinkedinImg}

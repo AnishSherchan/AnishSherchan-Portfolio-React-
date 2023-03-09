@@ -76,7 +76,7 @@ const index = () => {
         required
       />
       {messageError && <p className=" text-red-700">{messageError}</p>}
-      <div className="flex space-y-5 md:space-y-0 md:space-x-12 flex-wrap">
+      <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-12 flex-wrap">
         <button
           type="submit"
           className="text-white text-xl bg-primary px-10 py-[10px] rounded-2xl hover:text-primary hover:bg-white transition ease-in-out delay-150 hover:-translate-y-.5 hover:scale-110 duration-300"
@@ -90,7 +90,7 @@ const index = () => {
             setEmail("");
             setMessage("");
           }}
-          className="text-white text-xl bg-light-back px-10 py-[10px] rounded-2xl transition ease-in-out delay-150 hover:-translate-y-.5 hover:scale-110 duration-300"
+          className="text-white text-xl bg-light-back px-10 py-[10px] rounded-2xl hover:text-primary hover:bg-white transition ease-in-out delay-150 hover:-translate-y-.5 hover:scale-110 duration-300"
         >
           Clear
         </button>
