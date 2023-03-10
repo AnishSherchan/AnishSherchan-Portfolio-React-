@@ -43,7 +43,7 @@ const Footer = () => {
             All Rights Reserved &copy; 2021
           </p>
           <p className="text-white text-base pt-4 text-center md:text-left">
-            <span className=" text-blue-dot">~</span> Inovate Design
+            <span className=" text-blue-dot">~</span> Innovate Design
           </p>
         </div>
         <div className="flex justify-evenly items-center pt-6 md:pt-0 space-x-5">
