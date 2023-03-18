@@ -50,7 +50,7 @@ const Works = ({ getProjects }) => {
     <div className=" mt-44 md:mt-32 " id="Work">
       <div>
         <p className="flex items-center text-white text-xl mb-28">
-          Wroks
+          Works
           <span className="flex items-center mb-4 text-5xl  text-blue-dot">
             .
           </span>
