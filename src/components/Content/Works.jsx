@@ -33,7 +33,7 @@ const Works = ({ getProjects }) => {
         setSlidesToShow(3);
       }
     };
-
+	handleResize();
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
