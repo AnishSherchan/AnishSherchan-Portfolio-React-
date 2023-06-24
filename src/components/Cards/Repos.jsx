@@ -29,6 +29,9 @@ const Repos = ({ title, img, url }) => {
       image = Java;
       classNames = "w-10";
       break;
+    default:
+      image = reactLogo;
+      break;
   }
   return (
     <div className="w-60 h-80 min-h-full -ml-4 md:ml-0  rounded-3xl p-5  bg-light-back">
