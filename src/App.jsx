@@ -19,7 +19,7 @@ function App() {
     };
   }, []);
   const navClasses = `flex items-center justify-center h-16 ${
-    scrollPosition >= 180 ? "bg-[#252836] transition-colors duration-500" : ""
+    scrollPosition >= 70 ? "bg-[#252836] transition-colors duration-500" : ""
   }`;
 
   return (
