@@ -60,6 +60,9 @@ body {
   position: relative;
   z-index: 1000;
 }
+#mobile-menu {
+  z-index: 4000;
+}
 @keyframes slideTop {
   0% {
     transform: translateY(-50px);

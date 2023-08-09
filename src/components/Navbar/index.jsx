@@ -102,10 +102,10 @@ const index = ({ navClasses }) => {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div className="md:hidden w-full top-16" id="mobile-menu">
+          <div className="md:hidden w-full h-screen top-16" id="mobile-menu">
             <div
               ref={ref}
-              className="px-2 pt-2 pb-3 space-y-1 flex w-full items-center justify-evenly sm:px-3"
+              className="px-2 pt-2 pb-3 gap-4 flex flex-col w-full items-center justify-evenly sm:px-3"
             >
               <Link to="Stories" smooth={true}>
                 <p className="flex items-center cursor-pointer text-white text-xl">
