@@ -26,7 +26,6 @@ function App() {
     <div className=" bg-back-ground h-fit">
       <NavBar navClasses={navClasses} />
       <div className=" px-3 md:px-20">
-        testing
         <Contents />
       </div>
       <Footer />
